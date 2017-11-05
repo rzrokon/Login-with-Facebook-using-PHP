@@ -1,0 +1,2 @@
+# Login-with-Facebook-using-PHP
+Nowadays users are not interested in filling a big form to registration. Short registration process helps to get more subscribers for your website. Login with Facebook is a quick and powerful way to integrate registration and login system on the website. Facebook is a most popular social network and most of the users have a Facebook account. Facebook Login allow users to sign into your website using their Facebook account credentials without sign up on your website. 
