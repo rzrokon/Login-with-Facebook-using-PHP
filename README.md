@@ -6,6 +6,8 @@ Nowadays users are not interested in filling a big form to registration. Short r
 
 To store the user information from the Facebook database, a table (users) need to be created in MySQL database. At first, create a database (like codexworld) and run the below SQL on the database. The following SQL creates a users table with some basic fields in the database to hold the Facebook profile information.
 
+```sh
+
 CREATE TABLE `users` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
  `oauth_provider` enum('','facebook','google','twitter') COLLATE utf8_unicode_ci NOT NULL,
@@ -21,3 +23,5 @@ CREATE TABLE `users` (
  `modified` datetime NOT NULL,
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+```
